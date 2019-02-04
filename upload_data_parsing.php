@@ -36,7 +36,7 @@ $conn = mysqli_connect("localhost", "root", "test", "phpsamples");
 	         fclose($file);	
 		 }
 	}	 
-
+$conn->close();
 
 //   function get_all_records(){
 //     $con = getdb();
