@@ -120,11 +120,11 @@
 							<h3>Are you new here? Don't worry, we have the solution...</h3>
 							<div class="video">
 								<video width=100% height=auto; controls>
-									<source src="images/video_pcr" type="video/mp4">
+									<source src="images/primerstock.mp4" type="video/mp4">
 								  </video> 
 							</div>
 							<br>
-							<a href="users/loginform.php" class="button" >PrimerSTOCK User Guide</a>
+							<a href="manual.pdf" target="_blank" class="button" >PrimerSTOCK User Guide</a>
 						</article>
 					</div>
 				</div>
@@ -335,9 +335,7 @@ if ($response != null) {
 							</div>
 					<a href="users/privacy_policy.html" align="center"><b>Privacy Policy</b></a>
 					<ul class="icons">
-						<li><a href="#" class="icon fa-facebook" style="font-size:15px;"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-twitter" style="font-size:15px;"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-linkedin" style="font-size:15px;"><span class="label">linkedIn</span></a></li>
+						<li><a href="https://github.com/LJimenezGracia/MasterUPF_DBW_Project" class="icon fa-github" style="font-size:15px;"><span class="label">GitHub</span></a></li>
 					</ul>
 					</div>
 				</div>
