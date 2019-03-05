@@ -24,7 +24,7 @@ Ideally work with **Linux** (Ubuntu, Debian, and others) as you might need root 
 
 ### Installing
 
-You can download all the project information from any of the authors GitHub accounts to your computer.
+You can download all the project information from any of the authors GitHub accounts to your computer, for instance:
 
 ```
 $ git clone https://github.com/LJimenezGracia/MasterUPF_DBW_Project
@@ -38,7 +38,7 @@ CREATE database primerstock_db;
 Later on, you will be able to upload the PrimerSTOCK data model script (OurDB_final.sql) from your terminal to the MYSQL.
 
 ```
-$ sudo mysql -uroot -p primerstock_db < PATH/OurDB_final.sql
+$ sudo mysql -u root -p primerstock_db < PATH/OurDB_final.sql
 ``` 
 
 Once the datamodel has been created, you can upload all the remaining files and directories to the working server or, alternatively, to your localhost.
